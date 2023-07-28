@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style1.css">
+  </head>
+  <body>
+    <aside>
+    <section id="formBlock">
+      <article>
+        <h1>ORDER FOOD</h1>
+        <form action="" id="menuForm">
+          <input type="text" placeholder="enter the name" name="" id="input" />
+          <div class="menuSelector" onchange="handleChange()">
+            <input type="radio" name="food" id="" value="veg" />Veg
+            <input type="radio" name="food" id="" value="non-veg" />Non Veg
+          </div>
+
+          <select name="" id="dropdown">
+            <option>Select food</option>
+          </select>
+
+          <textarea name="" id="" cols="30" rows="5">
+ Enter Address here</textarea
+          >
+
+          <button class="btn">ORDER</button>
+          <a href="./index1.html">Get bill</a>
+        </form>
+      </article>
+    </section>
+    <section id="mainBill">
+        <h1>Bill</h1>
+        <article class="formBill">
+        
+            <div class="searchBlock">
+                <input type="text" placeholder="search here"></input>
+
+            </div>
+            <p>Invoice # : <span class="uuid"></span></p>
+            <p class="cName">Name :<span class="customerName"></span></p>
+             <table>
+                <thead>
+                    <tr>
+                        <th>Food name</th>
+                        <th>Price</th>
+                        <th>manage</th>
+                    </tr>
+                </thead>
+
+            </table>
+ 
+           
+            
+        </article>   </section>
+        </aside>
+    <!-- <script src="index.js"></script> -->
+    <script src="./index1.js"></script>
+  </body>
+</html>
